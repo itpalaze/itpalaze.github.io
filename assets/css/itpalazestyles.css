@@ -898,7 +898,7 @@ banner
 
 @media screen and (max-width: 767px) {
   .main-banner .caption .hdes {
-    display: inline;
+    display: block;
   }
   .main-banner .caption p {
     display: none;
@@ -911,11 +911,11 @@ banner
     display: none;
   }
   .main-banner .caption .h2mobile {
-    display: contents;
+    display: block;
     font-size: 33px;
   }
   .main-banner .caption .h2mobile em {
-    display: contents;
+    display: block;
     font-size: 37px;
   }
 }
@@ -1056,8 +1056,8 @@ services
   font-weight: bold;
   color: white;
   text-align: center;
-  margin-bottom: 30px;
-  padding: 10px;
+  margin-bottom: 10px;
+  padding: 30px;
 }
 
 /*
